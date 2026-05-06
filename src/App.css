@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fc;
+  color: #333;
+}
+
+nav {
+  width: 100%;
+  background: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  border-bottom: 1px solid #eee;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s ease;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 70px;
+  scroll-margin-top: 50px;
+}
+
+h2 {
+  color: #222;
+  border-left: 5px solid #007bff;
+  padding-left: 12px;
+  margin-bottom: 20px;
+  font-size: 1.7em;
+}
+
+.job,
+.degree {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+  border-left: 4px solid #007bff;
+}
+
+.job h3,
+.degree h3 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+}
+
+.job p,
+.degree p {
+  margin: 5px 0 10px 0;
+  color: #555;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.job ul li {
+  margin-bottom: 6px;
+}

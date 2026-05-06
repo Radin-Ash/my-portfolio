@@ -1,0 +1,128 @@
+/* --- Global Page Reset & Smooth Scroll --- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* --- Navbar (FlowCV Style) --- */
+nav {
+  background: #ffffff;
+  padding: 18px 0;
+  border-bottom: 1px solid #e6e8ec;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
+  transition: color 0.25s;
+}
+
+nav ul li a:hover {
+  color: #5e72e4; /* FlowCV blue-purple */
+}
+
+/* --- Page Layout --- */
+main {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 70px;
+  scroll-margin-top: 60px;
+}
+
+/* --- Section Titles (FlowCV Style) --- */
+h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+/* --- FlowCV Card Component --- */
+.job,
+.degree {
+  background: #ffffff;
+  padding: 26px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s;
+}
+
+/* subtle hover animation like FlowCV */
+.job:hover,
+.degree:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Titles inside cards */
+.job h3,
+.degree h3 {
+  margin: 0 0 12px 0;
+  color: #5e72e4;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.job p,
+.degree p {
+  margin: 6px 0 12px 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.job ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.job ul li {
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* subtle fading of section content */
+section div {
+  animation: fadein 0.4s ease;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
