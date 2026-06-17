@@ -2,7 +2,6 @@ const Education = () => {
   return (
     <section id="education">
       <h2>Education</h2>
-      {/* اینجا می‌توانید سوابق تحصیلی خود را لیست کنید */}
       <div className="degree">
         <h3>Iran University of Science and Technology (IUST)</h3>
         <p>Bachelor of computer science </p>

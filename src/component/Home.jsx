@@ -19,7 +19,6 @@ const Home = () => {
         <li> Tools: Git, VS Code, npm, Chrome DevTools</li>
         <li> Responsive Design, Cross-Browser Compatibility</li>
       </ul>
-      {/* اینجا می‌توانید محتوای اصلی رزومه خود را قرار دهید */}
     </section>
   );
 };
