@@ -2,10 +2,7 @@ const Home = () => {
   return (
     <section id="home">
       <h1>Radin Ashrafi</h1>
-      <h2>
-        +989126778507 | radinashrafi16@gmail.com | GitHub: Radin-Ash |
-        http://localhost:3000
-      </h2>
+      <h2>+989126778507 | radinashrafi16@gmail.com | GitHub: Radin-Ash</h2>
       <h2>Summary</h2>
       <p>
         Junior React Developer specializing in TypeScript, with a passion for
